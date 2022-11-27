@@ -554,13 +554,13 @@ body {
       rgba(10, 10, 10, 0.3),
       rgb(10, 10, 10, 1)
     ),
-    url("https://www.wealthmanagement.com/sites/wealthmanagement.com/files/styles/article_featured_retina/public/cryptocurrency-coins.jpg?itok=1zwQIX1s");
+    url("https://pbs.twimg.com/media/FeD2zpGX0AESjyi?format=jpg");
   --background-background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 1),
       rgba(10, 10, 10, 0.6)
     ),
-    url("https://www.wealthmanagement.com/sites/wealthmanagement.com/files/styles/article_featured_retina/public/cryptocurrency-coins.jpg?itok=1zwQIX1s") center center fixed;
+    url("https://pbs.twimg.com/media/FeD2zpGX0AESjyi?format=jpg") center center fixed;
   --height: 50vh;
 }
 
@@ -591,6 +591,6 @@ body {
         rgba(10, 10, 10, 1),
         rgba(10, 10, 10, 0)
       ),
-      url("https://www.wealthmanagement.com/sites/wealthmanagement.com/files/styles/article_featured_retina/public/cryptocurrency-coins.jpg?itok=1zwQIX1s") !important;
+      url("https://pbs.twimg.com/media/FeD2zpGX0AESjyi?format=jpg") !important;
   }
 }
