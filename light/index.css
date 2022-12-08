@@ -518,7 +518,7 @@ body {
 
   .go_back {
     position: relative;
-    color: var(--text-color);
+    color: white;
     font-size: 26px;
     margin-left: 5vw;
     top: 5vh;
