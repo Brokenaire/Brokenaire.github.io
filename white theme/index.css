@@ -94,7 +94,7 @@ body {
 
 #username_blog {
   font-size: 18px;
-  color: var(--text-color);
+  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
@@ -419,7 +419,7 @@ body {
 
 .go_back {
   position: absolute;
-  color: var(--text-color);
+  color: white;
   font-size: 26px;
   margin-left: 5vw;
   margin-top: 4vh;
@@ -546,56 +546,6 @@ body {
   background: var(--text-color);
 }
 :root {
-  --bg-color: rgb(10, 10, 10);
-  --text-color: #fff;
-  --blog-gray-color: rgb(180, 180, 180);
-  --background-image: linear-gradient(
-      90deg,
-      rgba(10, 10, 10, 0.3),
-      rgb(10, 10, 10, 1)
-    ),
-    url("https://pbs.twimg.com/media/FeD2zpGX0AESjyi?format=jpg");
-  --background-background: linear-gradient(
-      0deg,
-      rgba(10, 10, 10, 1),
-      rgba(10, 10, 10, 0.6)
-    ),
-    url("https://pbs.twimg.com/media/FeD2zpGX0AESjyi?format=jpg") center center fixed;
-  --height: 50vh;
-}
-
-#display h1 {
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: #fff;
-}
-
-#blog-display h1 {
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: #fff;
-}
-
-.projects section {
-  background: rgb(20, 20, 20);
-}
-
-#blog_section section {
-  background: rgb(20, 20, 20);
-}
-
-@media (max-width: 800px) {
-  :root {
-    --background-image: linear-gradient(
-        0deg,
-        rgba(10, 10, 10, 1),
-        rgba(10, 10, 10, 0)
-      ),
-      url("https://pbs.twimg.com/media/FeD2zpGX0AESjyi?format=jpg") !important;
-  }
-}
-
-.dark-mode {
   --bg-color: #fff;
   --text-color: rgb(10, 10, 10);
   --blog-gray-color: rgb(80, 80, 80);
@@ -604,6 +554,6 @@ body {
       rgba(10, 10, 10, 0.4),
       rgb(10, 10, 10, 0.4)
     ),
-    url("https://pbs.twimg.com/media/FeD2zpGX0AESjyi?format=jpg");
+    url("https://pbs.twimg.com/media/Fa50-XdVEAECIVc?format=jpg&name=large");
   --background-background: #fff;
 }
