@@ -273,7 +273,7 @@ body {
 
 #about span {
   margin: 1vh 0px;
-  display: block;
+  display: inline-block;
 }
 
 #about span i {

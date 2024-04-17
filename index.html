@@ -28,6 +28,7 @@
                 <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Mars</span>
                 <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
                 <span style="display:block;"><i class="fa fa-lightbulb"></i> &nbsp; <a href="light/index.html">Turn on Light mode !</a></span>
+                <span style="display:block;"><i class="fas fa-eye"></i>&nbsp; Total visits: <span id="visitorCount">58,987</span></span>
                 <div class="socials">
                 <span style="display:block;"><a href="https://www.twitter.com/subsequentism" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
                 <span style="display:block;"><a href="https://www.instagram.com/arjun__.x" target="_blank" class="socials"><i class="fab fa-instagram"></i></a></span>
@@ -156,6 +157,29 @@
         magicProjectsGrid.listen();
         magicForksGrid.listen();
       });
+
+// Function to increment and display the visitor count
+function incrementVisitorCount() {
+            let visitorCount = localStorage.getItem('visitorCount');
+            // Check if the visitor count exists in local storage
+            if (visitorCount === null || visitorCount === undefined) {
+                // If not, initialize it to 58,987
+                visitorCount = 58987;
+            } else {
+                // If it exists, parse it as an integer
+                visitorCount = parseInt(visitorCount);
+            }
+            // Increment the visitor count
+            visitorCount++;
+            // Update the visitor count in local storage
+            localStorage.setItem('visitorCount', visitorCount);
+            // Display the visitor count on the page
+            document.getElementById('visitorCount').textContent = visitorCount.toLocaleString(); // Format count with commas
+
+        }
+
+        // Call the function to increment and display the visitor count
+        incrementVisitorCount();
     </script>
 
 </body></html>
